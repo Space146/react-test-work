@@ -11,17 +11,21 @@ body {
 }
 
 .container {
-    margin: 0px 362px;
+    margin: 0px 25.139vw;
 }
 
 li {
     display: flex;
     text-align: start;
     align-items: center;
-    width: 716px;
     color: #FFFFFF;
     list-style-type: none;
     font-size: 30px;
     font-weight: 100;
     margin-top: 25px;
+}
+
+.form {
+    display: flex;
+    align-items: baseline;
 }

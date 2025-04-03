@@ -21,7 +21,10 @@ export const TaskProvider = ({ children }) => {
 
   const submitBtn = (e) => {
     e.preventDefault();
+    if(inputValue.trim() === '') return;
+
     const newTaskIndex = tasks.length;
+    
     saveToLocalStorage([
       ...tasks,
       { index: newTaskIndex, text: inputValue, checked: false },

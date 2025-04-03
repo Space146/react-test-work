@@ -8,13 +8,13 @@ import TaskList from "../components/TaskList";
 function TodoList() {
   return (
     <div>
-      <h1 style={{ fontFamily: "Alfa Slab One", fontSize: "50px" }}>
+      <h1 style={{ fontFamily: "Alfa Slab One", fontSize: "3.5vw" }}>
         All
         <span
           style={{
             fontFamily: "Alfa Slab One",
             color: "#266559",
-            fontSize: "50px",
+            fontSize: "3.5vw",
             marginLeft: "10px",
           }}
         >

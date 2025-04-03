@@ -7,7 +7,7 @@ const TaskForm = () => {
   const { inputValue, handleChange, submitBtn } = useTasks();
 
   return (
-    <form>
+    <form className="form">
       <MainInput value={inputValue} onChange={handleChange} />
       <SubBtn type="submit" onClick={submitBtn} />
     </form>

@@ -1,6 +1,6 @@
 input[type="checkbox" ] {
     display: flex;
-    margin: 3px 16px 3px 0px;
+    margin: 0.2vw 1.1vw 0.2vw 0px;
 }
 
 .custom-checkbox {
@@ -10,8 +10,8 @@ input[type="checkbox" ] {
 .custom-checkbox::before {
     content: '';
     display: inline-block;
-    width: 30px;
-    height: 30px; 
+    width: 2vw;
+    height: 2vw;
     background-color: #1b1b1b;
     border: 1px solid #1b1b1b;
     border-radius: 5px;
@@ -22,8 +22,8 @@ input[type="checkbox" ] {
     position: absolute;
     content: '';
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 2vw;
+    height: 2vw;
     border: 1px solid #1b1b1b;
     border-radius: 5px;
     cursor: pointer;
@@ -32,8 +32,7 @@ input[type="checkbox" ] {
 .custom-checkbox:checked::after {
     content: '';
     background-image: url(/assets/CheckMark.svg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0.36vw 0.75vh;
-    min-width: 30px;
-    min-height: 30px;
+    background-position: center;
 }
