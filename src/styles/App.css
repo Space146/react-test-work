@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #0b0b0b;
+    color: #FFFFFF;
+}
+
+.container {
+    margin: 0px 362px;
+}
+
+li {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    width: 716px;
+    color: #FFFFFF;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 25px;
+}

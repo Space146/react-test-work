@@ -1,0 +1,14 @@
+.main_input {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 200;
+    width: 716px;
+    height: 58px;
+    background-color: #1b1b1b;
+    border: 1px solid #1b1b1b;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-left: 18px;
+    margin-top: 43px;
+    margin-bottom: 25px;
+}

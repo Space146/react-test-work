@@ -1,0 +1,13 @@
+.deleteBtn {
+    width: 40px;
+    height: 27px;
+    border: 1px solid #0b0b0b;
+    background-color: #0b0b0b;
+    background-image: url(/assets/DeleteButton.svg);
+    background-repeat: no-repeat;
+    background-position: -0.1vw;
+    cursor: pointer;
+    margin-left: 14px;
+    position: relative;
+    right: 10px;
+}
